@@ -1,0 +1,270 @@
+.table {
+  width: 90%;
+  margin: auto;
+}
+.header-top h1 {
+  font-size: 2.5rem;
+}
+.thead {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.tbody {
+  text-align: center;
+  width: 100%;
+}
+.item-image {
+  height: 10rem;
+}
+.item-image img {
+  height: 100%;
+}
+.btn {
+  padding: 0.3rem 1.5rem;
+  margin: 0.5rem;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #243b55;
+  color: white;
+}
+.select-quantity {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+#quantity {
+  padding: 0.3rem 1.5rem;
+}
+.minus {
+  padding: 0.3rem;
+  background-color: #eee;
+  cursor: pointer;
+}
+.plus {
+  padding: 0.3rem;
+  background-color: #eee;
+  cursor: pointer;
+}
+.header-top {
+  width: 90%;
+  margin: 1rem auto;
+  text-align: center;
+}
+.btn-remove {
+  color: rgb(219, 73, 73);
+  background-color: #eee;
+}
+.btn-remove:hover {
+  color: #eee;
+  background-color: rgb(219, 73, 73);
+}
+.fa-trash {
+  margin-right: 0.5rem;
+}
+
+.display-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.side {
+  flex: 30%;
+}
+.side-head {
+  margin: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.st-body tr td {
+  width: 15rem;
+  text-align: center;
+  gap: 1rem;
+}
+.side-proceed {
+  display: flex;
+  justify-content: center;
+}
+.df-btns {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.df-btns button {
+  background-color: #eee;
+}
+.check-out {
+  margin: 2rem;
+}
+.two-part {
+  display: flex;
+  justify-content: space-around;
+  gap: 4rem;
+}
+.part {
+  margin: 1rem;
+  border-radius: 10px;
+  bottom: 1rem;
+}
+.part-2 {
+  margin: 1rem;
+  background-color: #eee;
+  border-radius: 10px;
+  flex: 40%;
+  bottom: 1rem;
+}
+.p2-topic {
+  margin: 1rem;
+  text-align: center;
+}
+.p2-items {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
+}
+.item-image,
+.p2i-photo {
+  padding: 0.5rem;
+}
+.p2i-photo img {
+  height: 3rem;
+  width: 5rem;
+}
+.p2i-Name {
+  margin: auto 1rem;
+  text-align: center;
+}
+.last-part {
+  display: flex;
+  justify-content: space-around;
+}
+.total {
+  gap: 1rem;
+  margin: 0.5rem;
+}
+.show-hide {
+  background-color: #ddd;
+  margin: 0 1rem;
+  border-radius: 1rem;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.username {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  flex: 40%;
+}
+.contact,
+.userFirstName {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  flex: 30%;
+}
+#userID,
+#contact,
+#userFirstName {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid var(--first);
+  outline: none;
+  text-align: center;
+  font-size: 1rem;
+}
+.payment-heading,
+.address-heading,
+.login-heading {
+  background-color: #eee;
+  border-radius: 1rem;
+  display: flex;
+  gap: 1rem;
+  padding: 0.7rem 0.5rem;
+  margin: 1rem 0.5rem;
+  cursor: pointer;
+}
+.plus-minus {
+  display: flex;
+  justify-content: center;
+}
+.part-1 {
+  flex: 60%;
+}
+.user-data {
+  margin: 1rem 2rem;
+  width: 90%;
+}
+.payment,
+.login,
+.address {
+  background-color: #eee;
+  border-radius: 1rem;
+  padding: 0.7rem 0;
+}
+.address-plus,
+.payment-plus,
+.payment-minus,
+.address-minus,
+.login-plus,
+.login-minus {
+  padding: 0.3rem;
+  background-color: #eee;
+  cursor: pointer;
+}
+.street-address {
+  background-color: #eee;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  flex: 40%;
+}
+.city-address {
+  background-color: #eee;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  flex: 30%;
+}
+.zip-code {
+  background-color: #eee;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  flex: 30%;
+}
+#street-address {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid var(--first);
+  outline: none;
+  text-align: center;
+  font-size: 1rem;
+}
+#city-address {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid var(--first);
+  outline: none;
+  text-align: center;
+  font-size: 1rem;
+}
+#zip-code {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid var(--first);
+  outline: none;
+  text-align: center;
+  font-size: 1rem;
+}
+.e-cart{
+  text-align: center;
+}

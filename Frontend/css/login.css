@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+  font-family: "Poppins", sans-serif;
+  /* overflow: hidden; */
+}
+:root {
+  --first: #111820;
+  --second: #243b55;
+}
+.login-signup {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to right, var(--first), var(--second));
+}
+.form-signin {
+  width: 22rem;
+  margin: 1rem;
+  padding: 2rem;
+  border: 2px var(--first) solid;
+  border-radius: 10px;
+  background-color: white;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: var(--second);
+  height: 5rem;
+  width: 5rem;
+  margin: auto;
+  border-radius: 50%;
+  border: 1px var(--second) solid;
+}
+.input-form {
+  width: 100%;
+  text-align: center;
+  color: var(--second);
+}
+
+.username,
+.password,
+.contact,
+.address,
+.profile,
+.idprove,
+.userFirstName,
+.userLastName {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+#userIDr,
+#userID,
+#new-password,
+#confirm-password,
+#passwordr,
+#password,
+#contact,
+#address,
+#profile,
+#idprove,
+#userFirstName,
+#userLastName {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid var(--first);
+  outline: none;
+  text-align: center;
+}
+.submit-data {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btn-login,
+.btn-register {
+  width: 60%;
+  margin: 1rem;
+}
+.btn-login:hover,
+.btn-register:hover {
+  background-color: var(--second);
+  color: white;
+}
+.btn-toregister,
+.btn-tosignin {
+  color: #243b55;
+}
+.btn-toregister:hover,
+.btn-tosignin:hover {
+  text-decoration: underline;
+  transition: 4s ease;
+}
+.form-register {
+  width: 30rem;
+  margin: 1rem;
+  padding: 2rem;
+  border: 2px var(--first) solid;
+  border-radius: 10px;
+  background-color: white;
+}
+.form-change {
+  transform: rotate(90deg);
+  transition: 5s ease;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-profile {
+  display: flex;
+  justify-content: center;
+}
+.error,
+.duplicate-error {
+  color: red;
+}
+.btn {
+  cursor: pointer;
+}

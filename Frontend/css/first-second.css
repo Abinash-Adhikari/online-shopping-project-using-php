@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+  font-family: "Poppins", sans-serif;
+  /* overflow: hidden; */
+}
+:root {
+  --first: #111820;
+  --second: #243b55;
+}
+body {
+  color: var(--first);
+}
+.navbar {
+  background-image: linear-gradient(to right, var(--first), var(--second));
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+.navbar-logo img {
+  width: 90%;
+  height: 90%;
+}
+.navbar-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+.location {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.7rem;
+}
+.login-register,
+.search-bar,
+.cart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.input-search {
+  background-color: none;
+  background: none;
+  outline: none;
+  border: none;
+}
+#search-icon {
+  color: white;
+  border-bottom: 2px solid white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.compare-productShow {
+  width: 95%;
+  margin: auto;
+}
+.first-second {
+  display: flex;
+  flex-wrap: wrap;
+}
+.first-hand,
+.second-hand {
+  flex: 50%;
+}
+.show-image {
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.show-image img {
+  height: 100%;
+}
+.id-cost {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+}
+.fh-top,
+.sh-top {
+  margin: 3rem 1rem;
+  width: 100%;
+  color: var(--first);
+  text-align: center;
+  padding: 0.5rem;
+}
+.item-details {
+  width: 100%;
+}
+.name-cost {
+  text-align: center;
+  margin: 0.5rem;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-brief {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  color: var(--second);
+}
+.btn-brief:hover {
+  background-color: var(--second);
+  color: white;
+}
+.none {
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+.bottom-footer {
+  background-color: #111820;
+  padding: 1rem;
+  color: white;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 1rem;
+}
+.footer li {
+  list-style: none;
+}
+.bottom {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pd-description {
+  margin: 80%;
+  margin: auto;
+}
+.lite-color h3 {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1rems;
+}
+.pd-description p {
+  width: 80%;
+  margin: auto;
+}
